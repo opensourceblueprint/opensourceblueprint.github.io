@@ -2,8 +2,14 @@
 sidebar_position: 1
 ---
 
-# Goal Alignment
+# Pillars
 
-# Zeroth Principal Thinking
+## N of 1
 
-# Self Destructive Behavior
+## Goal Alignment
+
+## Zeroth Principal Thinking
+
+## Self Destructive Behavior
+
+## 5 Level Stack of Thinking
