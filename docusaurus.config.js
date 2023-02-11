@@ -119,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Open Source Blueprint. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Open Source Blueprint. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
