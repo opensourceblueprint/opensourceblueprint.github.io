@@ -14,12 +14,12 @@ const config = {
   url: "https://opensourceblueprint.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/blueprint/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "OpenSourceBlueprint", // Usually your GitHub org/user name.
-  projectName: "blueprint", // Usually your repo name.
+  organizationName: "opensourceblueprint", // Usually your GitHub org/user name.
+  projectName: "opensourceblueprint.github.io", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
