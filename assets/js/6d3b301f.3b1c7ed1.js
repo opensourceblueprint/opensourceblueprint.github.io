@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblueprint=self.webpackChunkblueprint||[]).push([[8249],{4523:t=>{t.exports=JSON.parse('{"title":"Protocol","slug":"/category/protocol","permalink":"/category/protocol","navigation":{"previous":{"title":"Pillars","permalink":"/pillars"},"next":{"title":"Air Filtration","permalink":"/protocol/air-filtration"}}}')}}]);
