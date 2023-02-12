@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblueprint=self.webpackChunkblueprint||[]).push([[2498],{2291:e=>{e.exports=JSON.parse('{"title":"Measurements","slug":"/category/measurements","permalink":"/category/measurements","navigation":{"previous":{"title":"Red Light Therapy","permalink":"/protocol/red-light-therapy"},"next":{"title":"Measure 67 Organs","permalink":"/measure"}}}')}}]);
