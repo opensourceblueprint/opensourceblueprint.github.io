@@ -6,37 +6,52 @@ type FeatureItem = {
   title: string;
   i: any;
   description: JSX.Element;
+  link: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
+    title: "Principles",
     i: require("@site/static/img/blueprint_logo.png").default,
-    description: <></>,
+    description: (
+      <>
+        <p>
+          Principles are the foundation of the Blueprint Protocol. They are the
+          guiding light for the development of the protocol.
+        </p>
+      </>
+    ),
+    link: "/pillars",
   },
   {
-    title: "Focus on What Matters",
+    title: "Protocol",
     i: require("@site/static/img/blueprint_logo.png").default,
-    description: <></>,
+    description: (
+      <>
+        <p>The protocol is the actionable part of the Blueprint.</p>
+      </>
+    ),
+    link: "/category/protocol",
   },
   {
-    title: "Powered by React",
+    title: "Measurements",
     i: require("@site/static/img/blueprint_logo.png").default,
-    description: <></>,
+    description: <>Learn about which measurements are used in the Blueprint.</>,
+    link: "/category/measurements",
   },
 ];
 
-function Feature({ title, i, description }: FeatureItem) {
+function Feature({ title, i, description, link }: FeatureItem) {
   return (
-    <div className={clsx("col col--4")}>
+    <a className={clsx("col col--4")} href={link}>
       <div className="text--center">
-        <img className={styles.featureSvg} src={i} />
+        {/* <img className={styles.featureSvg} src={i} /> */}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-    </div>
+    </a>
   );
 }
 
