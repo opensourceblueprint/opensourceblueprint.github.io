@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This site has been largely replaced by http://superveggie.delivery/blueprint
+
 # Blueprint OS
 
 BlueprintOS is an open-source project inspired by Bryan Johnson's Blueprint. This project aims to help individuals build their Autonomous Self by optimizing health and wellness through data-driven decision-making.
